@@ -16,9 +16,9 @@
             rejane: {
               bg: '#fafafa', /* Off-white Puro e Limpo */
               card: '#f4f6f4', /* Verde Sálvia Ultra Claro */
-              brand: '#2d4a3e', /* Verde Oliva Profundo / Alta Costura */
+              brand: '#2d4a3e', /* Verde Oliva Profundo */
               brandHover: '#1e332a',
-              accent: '#c5a880', /* Dourado Champagne / Sofisticação */
+              accent: '#c5a880', /* Dourado Champagne */
               text: '#1c2421', /* Grafite Escuro Natural */
               muted: '#55635d' /* Cinza Esverdeado Elegante */
             }
@@ -112,7 +112,7 @@
             <i data-lucide="dna" class="w-5 h-5 text-rejane-brand"></i>
           </div>
           <h3 class="text-xl font-semibold mb-4 text-rejane-text">Alinhamento Hormonal</h3>
-          <p class="text-rejane-muted leading-relaxed">Analisamos seu momento biológico para incluir nutrientes estratégicos que atuam a favor das suas taxas, destravando a queima de gordura abdominal profunda.</p>
+          <p class="text-rejane-muted leading-relaxed">Analisamos seu momento biológico para include nutrientes estratégicos que atuam a favor das suas taxas, destravando a queima de gordura abdominal profunda.</p>
         </div>
 
         <div class="reveal bg-[#fafafa] p-10 rounded-3xl border border-rejane-brand/5 shadow-sm group hover:border-rejane-brand/20 transition-all">
@@ -185,69 +185,162 @@
     </div>
   </section>
 
-  <!-- ELEMENTO DE TRANSIÇÃO (Slanted SVG) -->
+  <!-- ELEMENTO DE TRANSIÇÃO PARA OS DEPOIMENTOS -->
   <div class="w-full overflow-hidden leading-none bg-rejane-bg text-rejane-card">
     <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="relative block w-full h-12">
       <polygon points="1200 120 0 120 1200 0" fill="currentColor"></polygon>
     </svg>
   </div>
 
-  <!-- DOBRA 4: REJANE SANTOS -->
+  <!-- NOVA DOBRA: DEPOIMENTOS (PROVA SOCIAL) -->
   <section class="py-24 px-6 bg-rejane-card">
     <div class="max-w-6xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-        
-        <div class="reveal order-2 md:order-1 bg-[#fafafa] p-10 sm:p-12 rounded-3xl border border-rejane-brand/5 shadow-sm relative overflow-hidden">
-          <h4 class="text-xl font-bold mb-8 text-rejane-brand tracking-tight">O Diferencial do Método</h4>
-          <ul class="space-y-6">
-            <li class="flex items-start gap-4">
-              <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
-              <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Foco na Biologia Feminina:</strong> Condutas pensadas e testadas exclusivamente para mulheres na pré e pós-menopausa.</p>
-            </li>
-            <li class="flex items-start gap-4">
-              <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
-              <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Ciência Sem Restrições Radicais:</strong> Sem cortes extremistas que sacrificam o seu bem-estar ou desregulam sua energia vital.</p>
-            </li>
-            <li class="flex items-start gap-4">
-              <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
-              <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Histórico de Sucesso:</strong> Mais de 3.000 transformações reais documentadas por meio de uma abordagem integrativa e humanizada.</p>
-            </li>
-          </ul>
-        </div>
+      <div class="reveal text-center max-w-3xl mx-auto mb-16">
+        <span class="text-rejane-accent text-xs font-bold uppercase tracking-widest block mb-3">Histórias Reais</span>
+        <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-6 text-rejane-text">
+          Mulheres que recuperaram a <span class="text-rejane-brand">autoestima e vitalidade</span>
+        </h2>
+        <p class="text-rejane-muted text-lg leading-relaxed">
+          Veja o depoimento de pacientes que decidiram abandonar as dietas genéricas para viver um acompanhamento focado na biologia dos 40+.
+        </p>
+      </div>
 
-        <div class="order-1 md:order-2 space-y-8">
-          <div class="reveal">
-            <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-6 text-rejane-text">
-              Sinta-se novamente no controle do <span class="text-gradient">seu próprio corpo.</span>
-            </h2>
-            <p class="text-rejane-muted text-lg leading-relaxed">
-              Como especialista em nutrição integrativa, dediquei minha carreira a devolver a vitalidade para mulheres que viam o ganho de peso abdominal e o desânimo como efeitos inevitáveis do tempo. Na mentoria individual, vou decifrar as necessidades do seu metabolismo para resgatar sua autoconfiança, disposição e orgulho ao se vestir.
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Depoimento 1 -->
+        <div class="reveal bg-[#fafafa] p-8 rounded-3xl border border-rejane-brand/5 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="flex gap-1 mb-4 text-rejane-accent">
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+            </div>
+            <p class="text-rejane-text font-medium text-base mb-6 italic leading-relaxed">
+              "Achei que meu metabolismo tinha parado por conta da menopausa. Já tinha tentado de tudo e só passava fome. Com o plano da Rejane, entendi o que meu corpo precisava. Minha disposição dobrou e minhas roupas voltaram a servir perfeitamente."
             </p>
           </div>
-          
-          <div class="reveal flex gap-5 items-start">
-            <div class="w-12 h-12 rounded-full bg-rejane-brand/5 text-rejane-brand flex items-center justify-center shrink-0">
-              <i data-lucide="award" class="w-5 h-5 text-rejane-brand"></i>
-            </div>
+          <div class="border-t border-stone-100 pt-4 flex items-center justify-between">
             <div>
-              <h3 class="text-lg font-semibold mb-1 text-rejane-text">Excelência Técnica</h3>
-              <p class="text-rejane-muted text-sm sm:text-base">Direcionamento clínico de alto padrão focado em longevidade ativa, estética e melhora expressiva da saúde hormonal.</p>
+              <h4 class="font-bold text-rejane-text text-sm">Cláudia Menezes</h4>
+              <span class="text-xs text-rejane-muted">46 anos • Empresária</span>
             </div>
+            <span class="bg-rejane-brand/5 text-rejane-brand text-xs font-bold px-3 py-1 rounded-full">-8kg em 2 meses</span>
           </div>
         </div>
+
+        <!-- Depoimento 2 -->
+        <div class="reveal bg-[#fafafa] p-8 rounded-3xl border border-rejane-brand/5 shadow-xs flex flex-col justify-between">
+          <div>
+            <div class="flex gap-1 mb-4 text-rejane-accent">
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+            </div>
+            <p class="text-rejane-text font-medium text-base mb-6 italic leading-relaxed">
+              "O que mais me surpreendeu foi o suporte. Não é aquela consulta que você sai com um papel e se vira. Ela acompanha de perto, ajusta o cardápio quando a rotina aperta e não me mandou cortar tudo que eu gostava. Foi libertador."
+            </p>
+          </div>
+          <div class="border-t border-stone-100 pt-4 flex items-center justify-between">
+            <div>
+              <h4 class="font-bold text-rejane-text text-sm">Márcia Silva</h4>
+              <span class="text-xs text-rejane-muted">52 anos • Advogada</span>
+            </div>
+            <span class="bg-rejane-brand/5 text-rejane-brand text-xs font-bold px-3 py-1 rounded-full">Fim do inchaço e fadiga</span>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="reveal bg-[#fafafa] p-8 rounded-3xl border border-rejane-brand/5 shadow-xs flex flex-col justify-between md:col-span-2 lg:col-span-1">
+          <div>
+            <div class="flex gap-1 mb-4 text-rejane-accent">
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+              <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+            </div>
+            <p class="text-rejane-text font-medium text-base mb-6 italic leading-relaxed">
+              "Meu sono era péssimo e a gordura abdominal só aumentava. Após os exames e o protocolo hormonal alimentar focado que a Rejane passou, tudo mudou. Voltei a dormir bem, meu intestino regulou e perdi aquela barriga persistente."
+            </p>
+          </div>
+          <div class="border-t border-stone-100 pt-4 flex items-center justify-between">
+            <div>
+              <h4 class="font-bold text-rejane-text text-sm">Letícia Rocha</h4>
+              <span class="text-xs text-rejane-muted">43 anos • Funcionária Pública</span>
+            </div>
+            <span class="bg-rejane-brand/5 text-rejane-brand text-xs font-bold px-3 py-1 rounded-full">-6cm de cintura</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- ELEMENTO DE TRANSIÇÃO (Slanted Invertido) -->
+  <!-- ELEMENTO DE TRANSIÇÃO INVERTIDO DOS DEPOIMENTOS -->
   <div class="w-full overflow-hidden leading-none bg-rejane-card text-rejane-bg">
     <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="relative block w-full h-12 transform rotate-180">
       <polygon points="1200 120 0 120 1200 0" fill="currentColor"></polygon>
     </svg>
   </div>
 
+  <!-- DOBRA 4: REJANE SANTOS -->
+  <section class="py-24 px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      
+      <div class="reveal order-2 md:order-1 bg-rejane-card p-10 sm:p-12 rounded-3xl border border-rejane-brand/5 shadow-xs relative overflow-hidden">
+        <h4 class="text-xl font-bold mb-8 text-rejane-brand tracking-tight">O Diferencial do Método</h4>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
+            <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Foco na Biologia Feminina:</strong> Condutas pensadas e testadas exclusivamente para mulheres na pré e pós-menopausa.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
+            <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Ciência Sem Restrições Radicais:</strong> Sem cortes extremistas que sacrificam o seu bem-estar ou desregulam sua energia vital.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-rejane-brand text-white rounded-full p-1"><i data-lucide="check" class="w-3.5 h-3.5 text-white"></i></div>
+            <p class="text-rejane-text/90 text-sm sm:text-base"><strong>Histórico de Sucesso:</strong> Mais de 3.000 transformações reais documentadas por meio de uma abordagem integrativa e humanizada.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-1 md:order-2 space-y-8">
+        <div class="reveal">
+          <h2 class="text-3xl sm:text-4xl font-bold tracking-tight mb-6 text-rejane-text">
+            Sinta-se novamente no controle do <span class="text-gradient">seu próprio corpo.</span>
+          </h2>
+          <p class="text-rejane-muted text-lg leading-relaxed">
+            Como especialista em nutrição integrativa, dediquei minha carreira a devolver a vitalidade para mulheres que viam o ganho de peso abdominal e o desânimo como efeitos inevitáveis do tempo. Na mentoria individual, vou decifrar as necessidades do seu metabolismo para resgatar sua autoconfiança, disposição e orgulho ao se vestir.
+          </p>
+        </div>
+        
+        <div class="reveal flex gap-5 items-start">
+          <div class="w-12 h-12 rounded-full bg-rejane-brand/5 text-rejane-brand flex items-center justify-center shrink-0">
+            <i data-lucide="award" class="w-5 h-5 text-rejane-brand"></i>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-1 text-rejane-text">Excelência Técnica</h3>
+            <p class="text-rejane-muted text-sm sm:text-base">Direcionamento clínico de alto padrão focado em longevidade ativa, estética e melhora expressiva da saúde hormonal.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ELEMENTO DE TRANSIÇÃO FINAL -->
+  <div class="w-full overflow-hidden leading-none bg-rejane-bg text-rejane-card">
+    <svg viewBox="0 0 1200 120" preserveAspectRatio="none" class="relative block w-full h-12">
+      <polygon points="1200 120 0 120 1200 0" fill="currentColor"></polygon>
+    </svg>
+  </div>
+
   <!-- DOBRA 5: CTA FINAL -->
-  <section class="py-24 px-6 text-center">
+  <section class="py-24 px-6 text-center bg-rejane-card">
     <div class="reveal max-w-3xl mx-auto">
       <h2 class="text-3xl sm:text-5xl font-bold tracking-tight mb-8 leading-tight text-rejane-text">
         Pronta para dar o <span class="text-rejane-brand">próximo passo?</span>
